@@ -1,0 +1,49 @@
+<div class="mt-5">
+  <h2>Run Submissions</h2>
+  <table class="table table-hover table-responsive">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Distance</th>
+        <th>Time</th>
+        <th>Status</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Oct. 4, 2017</th>
+        <td>30.20 KM</td>
+        <td>04:10:23</td>
+        <td>Approved</td>
+        <td><i class="fa fa-camera" aria-hidden="true" (click)="openModal(photoModalTemplate)"></i></td>
+      </tr>
+      <tr>
+        <th>Oct. 9, 2017</th>
+        <td>20.13 KM</td>
+        <td>03:00:10</td>
+        <td>Approved</td>
+        <td><i class="fa fa-camera" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <th>Oct. 10, 2017</th>
+        <td>15.14 KM</td>
+        <td>01:30:00</td>
+        <td>Pending</td>
+        <td><i class="fa fa-camera" aria-hidden="true"></i></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<ng-template #photoModalTemplate>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">Run Submission</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <img src="https://i.pinimg.com/736x/e0/da/1d/e0da1d18f8fcbd389675e7ade5a4c8fb--heart-nature-love-nature.jpg">
+  </div>
+</ng-template>

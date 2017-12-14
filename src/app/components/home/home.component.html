@@ -1,0 +1,58 @@
+<!-- <section class="jumbotron vertical-center" style="background-image: url('https://static.pexels.com/photos/421160/pexels-photo-421160.jpeg'); background-position: center; background-size: cover;">
+  <div class="col-md-4 col-sm-3 col-xs-2"></div>
+  <div class="col-md-4 col-sm-6 col-xs-8">
+    <div class="container text-center" style="margin: 0 auto; background: #000; opacity: 0.5;">
+      <p class="header-text" style="opacity: 1; color: white;">RUNNING SOON</p>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-3 col-xs-2"></div>
+
+</section> -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#">Run.PH</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarMain">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#categories">Categories</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Perks</a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="['/dashboard']" class="nav-link" href="#">How It Works</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" (click)="openLoginModal()"> Login </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="openSignUpModal()"> Sign Up </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<section id="home" style="border: 2px solid black;" class="container-fluid h-100 pt-5"> 
+  <h1 class="text-center"> This is the Home Section </h1>
+</section>
+
+<section id="categories" style="border: 2px solid black;" class="container-fluid h-100"> 
+  <h1 class="text-center"> This is the Categories Section </h1>
+</section>
+
+<section id="perks" style="border: 2px solid black;" class="container-fluid h-100"> 
+  <h1 class="text-center"> This is the Perks Section </h1>
+</section>
+
+<section id="how-it-works" style="border: 2px solid black;" class="container-fluid h-100"> 
+  <h1 class="text-center"> This is the How Works Section </h1>
+</section>

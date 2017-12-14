@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+html, body, app-root, app-home {
+  height: 100%;
+}
+
+tr.text-center {
+  display: none !important;
+}
+
+timepicker > table {
+  margin: 0 auto;
+}

@@ -1,0 +1,25 @@
+<div class="modal-header">
+  <h4 class="modal-title pull-left">Login</h4>
+  <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+     <span aria-hidden="true">&times;</span>
+   </button>
+</div>
+<div class="modal-body">
+  <form>
+    <div class="form-group row">
+      <label for="email-input" class="col-2 col-form-label">Email</label>
+      <div class="col-10">
+        <input class="form-control" type="email" placeholder="Email" id="email-input">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="password-input" class="col-2 col-form-label">Password</label>
+      <div class="col-10">
+        <input class="form-control" type="password" placeholder="Password" id="password-input">
+      </div>
+    </div>
+    <div class="text-center">
+      <button class="btn btn-primary"> Submit </button>
+    </div>
+  </form>
+</div>
