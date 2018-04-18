@@ -1,58 +1,240 @@
-<!-- <section class="jumbotron vertical-center" style="background-image: url('https://static.pexels.com/photos/421160/pexels-photo-421160.jpeg'); background-position: center; background-size: cover;">
-  <div class="col-md-4 col-sm-3 col-xs-2"></div>
-  <div class="col-md-4 col-sm-6 col-xs-8">
-    <div class="container text-center" style="margin: 0 auto; background: #000; opacity: 0.5;">
-      <p class="header-text" style="opacity: 1; color: white;">RUNNING SOON</p>
-    </div>
-  </div>
-  <div class="col-md-4 col-sm-3 col-xs-2"></div>
 
-</section> -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">CyberRun</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#partners">Our Partners</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#register">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <a class="navbar-brand" href="#">Run.PH</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false"
-    aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarMain">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#categories">Categories</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Perks</a>
-      </li>
-      <li class="nav-item">
-        <a [routerLink]="['/dashboard']" class="nav-link" href="#">How It Works</a>
-      </li>
-    </ul>
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" (click)="openLoginModal()"> Login </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" (click)="openSignUpModal()"> Sign Up </a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-5 my-auto">
+            <div class="device-container">
+              <div class="device-mockup iphone6_plus portrait white">
+                <div class="device">
+                  <div class="screen">
+                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                    <!-- <img src="/assets/images/demo-screen-1.jpg" class="img-fluid" alt=""> -->
+                  </div>
+                  <div class="button">
+                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 my-auto">
+            <div class="header-content mx-auto">
+              <h1 class="mb-5">PUSH YOURSELF.<br>
+              BE BETTER.</h1>
+              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Register Now!</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </header>
 
-<section id="home" style="border: 2px solid black;" class="container-fluid h-100 pt-5"> 
-  <h1 class="text-center"> This is the Home Section </h1>
-</section>
+    <section class="download bg-primary text-center" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="section-heading">About Us</h2>
+            <p>Cyber Run PH is an ambitious effort to cultivate a passionate community of runners within the country. It promotes proper fitness and healthy lifestyle by incorporating Running in everyday life. It aspires to motivate all Filipinos to run more frequently for a better lifestyle that we all owe to ourselves. It provides an avenue for beginner runners to be better at the sport and for more experienced runners to test themselves and improve their runs to be more efficient and fulfilling. It hopes to establish Metro Manila as a running capital where anyone and everyone can enjoy the sport in an encouraging and safe environment.
+</p>
+            <!-- <div class="badges">
+              <a class="badge-link" href="#"><img src="/assets/images/google-play-badge.svg" alt=""></a>
+              <a class="badge-link" href="#"><img src="/assets/images/app-store-badge.svg" alt=""></a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="categories" style="border: 2px solid black;" class="container-fluid h-100"> 
-  <h1 class="text-center"> This is the Categories Section </h1>
-</section>
+    <section class="features" id="partners">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2>Unlimited Features, Unlimited Fun</h2>
+          <p class="text-muted">Check out what you can do with this app theme!</p>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 my-auto">
+            <div class="device-container">
+              <div class="device-mockup iphone6_plus portrait white">
+                <div class="device">
+                  <div class="screen">
+                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                    <img src="/assets/images/demo-screen-1.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="button">
+                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 my-auto">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-screen-smartphone text-primary"></i>
+                    <h3>Device Mockups</h3>
+                    <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-camera text-primary"></i>
+                    <h3>Flexible Use</h3>
+                    <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-present text-primary"></i>
+                    <h3>Free to Use</h3>
+                    <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-lock-open text-primary"></i>
+                    <h3>Open Source</h3>
+                    <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="perks" style="border: 2px solid black;" class="container-fluid h-100"> 
-  <h1 class="text-center"> This is the Perks Section </h1>
-</section>
+    <section class="cta">
+      <div class="cta-content">
+        <div class="container">
+          <h2>Stop waiting.<br>Start building.</h2>
+          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
 
-<section id="how-it-works" style="border: 2px solid black;" class="container-fluid h-100"> 
-  <h1 class="text-center"> This is the How Works Section </h1>
-</section>
+    <section class="contact bg-primary" id="contact">
+      <div class="container">
+        <h2>We
+          <i class="fa fa-heart"></i>
+          new friends!</h2>
+        <ul class="list-inline list-social">
+          <li class="list-inline-item social-twitter">
+            <a href="#">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-facebook">
+            <a href="#">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-google-plus">
+            <a href="#">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+     <section class="contact bg-primary" id="contact">
+      <div class="container">
+        <h2>We
+          <i class="fa fa-heart"></i>
+          new friends!</h2>
+        <ul class="list-inline list-social">
+          <li class="list-inline-item social-twitter">
+            <a href="#">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-facebook">
+            <a href="#">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-google-plus">
+            <a href="#">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact bg-primary" id="register">
+      <div class="container">
+        <h2>We
+          <i class="fa fa-heart"></i>
+          new friends!</h2>
+        <ul class="list-inline list-social">
+          <li class="list-inline-item social-twitter">
+            <a href="#">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-facebook">
+            <a href="#">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-google-plus">
+            <a href="#">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; Your Website 2018. All Rights Reserved.</p>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#">Privacy</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">Terms</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+
