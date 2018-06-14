@@ -10,3 +10,7 @@ tr.text-center {
 timepicker > table {
   margin: 0 auto;
 }
+
+section#about h4 {
+    line-height: 1.5;
+}
